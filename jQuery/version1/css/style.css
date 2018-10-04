@@ -1,0 +1,15 @@
+.estilo{
+    background-color: cadetblue;
+    width: 150px;
+    height: 150px;
+}
+
+.buttonColor{
+    color: white;
+    background: black;
+    border: black;
+}
+
+.fundoVermelho{
+    background: red;
+}
