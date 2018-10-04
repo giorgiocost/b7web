@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evento de Formulário</title>
+    <link rel="stylesheet" href="assets/css/eventoFormulario.css">
+</head>
+<body>
+
+    <form action="POST">
+        Nome: <br>
+        <input type="text" name="nome" id="nome"><br>
+        
+        E-mail: <br>
+        <input type="email" name="email" id="email"><br>
+
+        Idade: <br>
+        <select name="idade" id="idade">
+            <option>10 anos</option>
+            <option>20 anos</option>
+            <option>30 anos</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/js/eventoFormulario.js"></script>
+</body>
+</html>
