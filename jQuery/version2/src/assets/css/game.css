@@ -1,0 +1,21 @@
+/* #bolinha{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background: green;
+    
+    display: block;
+} */
+
+#arena{
+    width: 800px;
+    height: 800px;
+    background:red;
+    position: fixed;
+}
+
+#bolinha:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+} 
