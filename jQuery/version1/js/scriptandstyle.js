@@ -1,7 +1,7 @@
-//adicionado classe a um elemento
+//adicionado classe a um elempt-brto
 $('h1').addClass('fundoVermelho');
 
-//removendo classe de um elemento
+//removpt-brdo classe de um elempt-brto
 //$('h1').removeClass('fundoVermelho');
 
 
@@ -12,8 +12,8 @@ if( $('h1').hasClass('fundoVermelho')){
 // alert("Não tem fundo vermelho");
 }
 
-//verificar se há algum elemento no documento HTML.
-if($('.conteudo').length > 0){
+//verificar se há algum elempt-brto no documpt-brto HTML.
+if($('.conteudo').lpt-brgth > 0){
     alert("Existe sim");
 }else{
     alert("Não existe");

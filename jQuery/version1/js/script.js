@@ -2,7 +2,7 @@ $(function () {
     //Titulo
     $('#titulo').text('Resumo');
 
-    //Selecionando Elemento
+    //Selecionando Elempt-brto
 
     $('p');
 
@@ -18,7 +18,7 @@ $(function () {
 
     //Pegando resultado de alt
     var nomeImg = $('img').attr('alt');
-    /* Apresentando na tela */
+    /* Aprespt-brtando na tela */
     $("#resultado").text(nomeImg);
 
     $('#teste').html("Texto Mudado");
@@ -35,7 +35,7 @@ $(function () {
             <form action="">
                 <label for="email">E-mail:</label>
                     <input type="text" id="email" name="email" placeholder="E-mail">
-                <button>ENVIAR <span id="email"></span></button>
+                <button>pt-brVIAR <span id="email"></span></button>
             </form> 
         </div>
     `);
@@ -51,15 +51,15 @@ $(function () {
 
     //Inserindo linha abaixo
 
-    $('input#elemento').after("<hr>");
+    $('input#elempt-brto').after("<hr>");
 
-    $('input#elemento').before('<label id="elemento">Elemento:</label><br>');
+    $('input#elempt-brto').before('<label id="elempt-brto">Elempt-brto:</label><br>');
 
     //Adicionar na lista última
-    $("ul#lista").append('<li>Item 5</li>');
+    $("ul#lista").apppt-brd('<li>Item 5</li>');
 
     //Adicionar na lista primeiro
-    $("ul#lista").prepend('<li>Item 0</li>');
+    $("ul#lista").preppt-brd('<li>Item 0</li>');
 
     //Alterando Item 2 da lista
     var item = $('li').eq(1);

@@ -2,19 +2,19 @@
 var siteParaFilha  = $('.site').find('.filha');
 console.log('TCL: siteParaFilha', siteParaFilha);
 
-//navegando de dentro para fora das tag exemṕlo: div.
-var filhaVoltaUma = $('.filha').parent();
+//navegando de dpt-brtro para fora das tag exemṕlo: div.
+var filhaVoltaUma = $('.filha').parpt-brt();
 console.log('TCL: filhaVoltaUma', filhaVoltaUma);
 /*
     Voltar DUAS. 
 */
-var filhaVoltaDuas = $('.filha').parent().parent();
+var filhaVoltaDuas = $('.filha').parpt-brt().parpt-brt();
 console.log('TCL: filhaVoltaDuas', filhaVoltaDuas);
 
 /*
     Voltar TRÊS. 
 */
-var filhaVoltaTres = $('.filha').parent().parent().parent();
+var filhaVoltaTres = $('.filha').parpt-brt().parpt-brt().parpt-brt();
 console.log('TCL: filhaVoltaTres', filhaVoltaTres);
 
 /*
@@ -24,10 +24,10 @@ var bodyConteudo = $('body').find('div').eq(4);
 console.log('TCL: bodyConteudo', bodyConteudo);
 
 
-var conteudoIrmao = $('.conteudo').parent().find('.irmao');
+var conteudoIrmao = $('.conteudo').parpt-brt().find('.irmao');
 console.log('TCL: conteudoIrmao', conteudoIrmao);
 
-// Verifica a classe mais próxima closet melhor que usar parent()
+// Verifica a classe mais próxima closet melhor que usar parpt-brt()
 var irmaoAoTopo = $('.irmao').closest(".topo");
 console.log('TCL: irmaoAoTopo', irmaoAoTopo);
 

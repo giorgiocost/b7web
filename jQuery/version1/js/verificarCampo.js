@@ -4,11 +4,11 @@ $('#nome').attr('disabled',true);
 $('#nome').removeAttr("disabled");
 
 
-var elementoNativoExemploUm = $('li').eq(5)[0];
-console.log('TCL: elementoNativoExemploUm', elementoNativoExemploUm);
+var elempt-brtoNativoExemploUm = $('li').eq(5)[0];
+console.log('TCL: elempt-brtoNativoExemploUm', elempt-brtoNativoExemploUm);
 
-var elementoNativoExemploDois = $('li')[5];
-console.log('TCL: elementoNativoExemploDois', elementoNativoExemploDois);
+var elempt-brtoNativoExemploDois = $('li')[5];
+console.log('TCL: elempt-brtoNativoExemploDois', elempt-brtoNativoExemploDois);
 
 
 var valorOption = $('#idade').val();

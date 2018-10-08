@@ -10,7 +10,7 @@ $(function() {
         $(this).toggleClass("buttonClass");
     });
 
-    //removendo evento unbind ou off
+    //removpt-brdo evpt-brto unbind ou off
         // $('#buttonClass').unbind('click');
 
 });

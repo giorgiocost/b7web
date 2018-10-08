@@ -1,7 +1,7 @@
 $(function() {
     $('form').on('submit',function (e) {
-        e.preventDefault();
-        console.log('Formulario foi Enviado');
+        e.prevpt-brtDefault();
+        console.log('Formulario foi pt-brviado');
     });
 
     $('#nome').on('select',function () {
