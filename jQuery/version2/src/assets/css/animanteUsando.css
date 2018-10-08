@@ -1,0 +1,31 @@
+.btn{
+    color: white;
+}
+
+.btn--blue{
+    background: blue;
+}
+
+.btn--green{
+    background: green;
+}
+
+.btn--stop{
+    background: yellowgreen;
+}
+
+.conteudo{
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.conteudo--1{
+    background-color: red;
+}
+
+.conteudo--2{
+    background-color: pink;
+}
+
