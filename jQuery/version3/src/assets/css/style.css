@@ -1,0 +1,31 @@
+.btn{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn--white{
+    background: white;
+    color: blue;
+    font-weight: bolder;
+}
+
+.btn--border{
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.conteudo{
+    width: 200px;
+    height: 200px;
+    background: #D3D3D3;
+    margin-top: 5px;
+    border: 2px solid blue;
+    line-height: 200px;
+    text-align: center;
+}
+
+
+*:focus {
+    border: 5px solid red;
+}
