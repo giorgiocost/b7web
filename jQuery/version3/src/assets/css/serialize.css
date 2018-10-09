@@ -1,0 +1,77 @@
+body {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 360px;
+    height: 160px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row {
+  clear: both;
+  text-align: center;
+}
+
+.column-3 {    
+    width: 25%;    
+}
+
+.column-9 {    
+    width: 75%;    
+}
+
+.label {
+    padding-top: 7px;
+    text-align: right;    
+}
+
+.label:after {
+    content: ':';
+    padding-right: 5px;
+}
+
+.column {
+    float: left;
+    height: 41px;    
+}
+
+.input input {
+    width: 100%;
+    height: 34px;    
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.btn{
+    width: 240px;
+    height: 30px;  
+    color: #fff;
+    top: 60%;
+    margin-left: 80px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn--enviar{
+    background: blue;
+}
+
+*:focus{
+    border: 3px solid black;
+}
