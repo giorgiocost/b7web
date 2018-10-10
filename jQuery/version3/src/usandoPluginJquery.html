@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Serialize</title>
+    <link rel="stylesheet" href="assets/css/requisicaoAjaxJSON.css">
+</head>
+<body>
+        <div id="container">
+            <form method="post" id="form">
+                <div class="row">
+                    <div class="column-3 column label">
+                        <label for="txtCPF">CPF</label>
+                    </div>
+                    <div class="column-9 column input">
+                        <input type="text" id="txtCPF" name="cpf"/>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <button class="btn btn--enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="resultado"></div>
+        
+
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="../node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+        <script src="assets/js/usandoPluginJquery.js"></script>
+</body>
+</html>
